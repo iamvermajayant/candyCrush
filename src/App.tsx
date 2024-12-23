@@ -18,7 +18,6 @@ function App() {
   useEffect(() => {
     dispatch(updateBoard(createBoard(boardSize)));
     //createBoard(boardSize);
-    //console.log(createBoard(boardSize));
   }, [boardSize, dispatch])
 
   useEffect(() => {
